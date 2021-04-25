@@ -1,0 +1,39 @@
+html {
+  background-color: #000000;
+}
+
+.metronome {
+    text-align: center;
+    width: 450px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#ffffff;
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.411);
+
+  }
+  
+  .bpm-slider input {
+    width: 95%;
+
+  }
+
+  .bpm-text {
+    font-size: larger;
+    font-weight: bolder;
+    padding: 30px;
+  }
+  
+  .metronome button {
+    background: #ca180f;
+    padding: 5px;
+    margin-top: 30px;
+    border: 1px solid #6e1310;
+    border-radius: 2px;
+    width: 90px;
+    color: #fff;
+    font-size: 18px;
+  }
+  
